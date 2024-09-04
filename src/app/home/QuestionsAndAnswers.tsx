@@ -3,12 +3,12 @@ import { Link } from "components/documentation";
 const QAS = [
   {
     question:
-      "Q1. What is a resume builder? Why resume builder is better than resume template doc?",
+      "Q1. What is a resume builder? Why is a resume builder better than a resume template document?",
     answer: (
       <>
         <p>
           There are two ways to create a resume today. One option is to use a
-          resume template, such as an office/google doc, and customize it
+          resume template, such as an office or Google doc, and customize it
           according to your needs. The other option is to use a resume builder,
           an online tool that allows you to input your information and
           automatically generates a resume for you.
@@ -16,106 +16,91 @@ const QAS = [
         <p>
           Using a resume template requires manual formatting work, like copying
           and pasting text sections and adjusting spacing, which can be
-          time-consuming and error-prone. It is easy to run into formatting
-          issues, such as using different bullet points or font styles after
-          copying and pasting. On the other hand, a resume builder like
-          OpenResume saves time and prevents formatting mistakes by
-          automatically formatting the resume. It also offers the convenience of
-          easily changing font types or sizes with a simple click. In summary, a
-          resume builder is easier to use compared to a resume template.
+          time-consuming and prone to formatting errors. Resume builders, like
+          ResumeReady, save time and eliminate formatting mistakes by
+          automatically formatting the resume for you. It also provides the
+          convenience of easily changing font types or sizes with just a click.
+          Overall, a resume builder is easier and more efficient compared to a
+          resume template.
         </p>
       </>
     ),
   },
   {
     question:
-      "Q2. What uniquely sets OpenResume apart from other resume builders and templates?",
+      "Q2. What sets ResumeReady apart from other resume builders and templates?",
     answer: (
       <>
         <p>
-          Other than OpenResume, there are some great free resume builders out
-          there, e.g. <Link href="https://rxresu.me/">Reactive Resume</Link>,{" "}
-          <Link href="https://flowcv.com/">FlowCV</Link>. However, OpenResume
-          stands out with 2 distinctive features:
-        </p>{" "}
-        <p>
-          <span className="font-semibold">
-            1. OpenResume is designed specifically for the U.S. job market and
-            best practices.
-          </span>
-          <br />
-          Unlike other resume builders that target a global audience and offer
-          many customization options, OpenResume intentionally only offers
-          options that are aligned with U.S. best practices. For example, it
-          excludes the option to add a profile picture to avoid bias and
-          discrimination. It offers only the core sections, e.g. profile, work
-          experience, education, and skills, while omitting unnecessary sections
-          like references. Additionally, OpenResume only offers a top down
-          single column resume design as opposed to two column design, because
-          single column design works best for AST. <br />{" "}
+          While there are other great free resume builders out there, such as{" "}
+          <Link href="https://rxresu.me/">Reactive Resume</Link> and{" "}
+          <Link href="https://flowcv.com/">FlowCV</Link>, ResumeReady stands out
+          with two unique features:
         </p>
         <p>
           <span className="font-semibold">
-            2. OpenResume is super privacy focus.
-          </span>{" "}
+            1. ResumeReady is tailored for FBLA members and career development.
+          </span>
           <br />
-          While other resume builders may require email sign up and store user
-          data in their databases, OpenResume believes that resume data should
-          remain private and accessible only on user’s local machine. Therefore,
-          OpenResume doesn’t require sign up to use the app, and all inputted
-          data is stored in user’s browser that only user has access to.
+          Unlike other resume builders that offer global customization options,
+          ResumeReady is optimized for Future Business Leaders of America (FBLA)
+          members by focusing on career-specific best practices. It provides
+          clean, simple designs without unnecessary sections like references and
+          avoids elements like profile pictures, preventing biases in the job
+          market.
+        </p>
+        <p>
+          <span className="font-semibold">
+            2. ResumeReady emphasizes privacy.
+          </span>
+          <br />
+          Unlike other resume builders that may require you to sign up and store
+          data in the cloud, ResumeReady prioritizes your privacy by keeping all
+          data stored locally in your browser. No sign-up is needed, and your
+          data is accessible only by you.
         </p>
       </>
     ),
   },
   {
-    question: "Q3. Who created OpenResume and why?",
+    question: "Q3. Who created ResumeReady and why?",
     answer: (
       <p>
-        OpenResume was created by{" "}
+        ResumeReady was created by{" "}
         <Link href="https://github.com/xitanggg">Xitang Zhao</Link> and designed
         by <Link href="https://www.linkedin.com/in/imzhi">Zhigang Wen</Link> as
-        a weekend project. As immigrants to the US, we had made many mistakes
-        when creating our first resumes and applying for internships and jobs.
-        It took us a long while to learn some of the best practices. While
-        mentoring first generation students and reviewing their resumes, we
-        noticed students were making the same mistakes that we had made before.
-        This led us to think about how we can be of help with the knowledge and
-        skills we have gained. We started chatting and working over the weekends
-        that led to OpenResume, where we integrated best practices and our
-        knowledge into this resume builder. Our hope is that OpenResume can help
-        anyone to easily create a modern professional resume that follows best
-        practices and enable anyone to apply for jobs with confidence.
+        a personal project. As job seekers, we noticed how difficult it was to
+        create a resume that followed best practices. We wanted to make it
+        easier for others, especially first-generation students, to avoid the
+        mistakes we made when applying for jobs. ResumeReady integrates what
+        we've learned to help users quickly create professional resumes that
+        adhere to best practices.
       </p>
     ),
   },
   {
-    question: "Q4. How can I support OpenResume?",
+    question: "Q4. How can I support ResumeReady?",
     answer: (
       <>
         <p>
-          The best way to support OpenResume is to share your thoughts and
-          feedback with us to help further improve it. You can send us an email
-          at{" "}
-          <Link href="mailto:hello@open-resume.com">hello@open-resume.com</Link>{" "}
+          The best way to support ResumeReady is by sharing your feedback and
+          suggestions with us. You can email us at{" "}
+          <Link href="mailto:hello@resumeready.com">hello@resumeready.com</Link>{" "}
           or{" "}
-          <Link href="https://github.com/xitanggg/open-resume/issues/new">
+          <Link href="https://github.com/xitanggg/resume-ready/issues/new">
             open an issue
           </Link>{" "}
-          at our Github repository. Whether you like it or not, we would love to
-          hear from you.
+          on our GitHub repository. Whether you have positive or constructive
+          feedback, we’d love to hear from you.
         </p>
         <p>
-          Another great way to support OpenResume is by spreading the words.
-          Share it with your friends, on social media platforms, or with your
-          school’s career center. Our goal is to reach more people who struggle
-          with creating their resume, and your word-of-mouth support would be
-          greatly appreciated. If you use Github, you can also show your support
-          by{" "}
-          <Link href="https://github.com/xitanggg/open-resume">
-            giving the project a star
+          Another way to support ResumeReady is by spreading the word. Share it
+          with friends, on social media, or with your school’s career center. If
+          you use GitHub, you can also show your support by{" "}
+          <Link href="https://github.com/xitanggg/resume-ready">
+            starring the project
           </Link>{" "}
-          to help increase its popularity and reach.
+          to help boost its visibility.
         </p>
       </>
     ),

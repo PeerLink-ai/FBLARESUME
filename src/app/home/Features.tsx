@@ -1,38 +1,30 @@
 import Image from "next/image";
 import featureFreeSrc from "public/assets/feature-free.svg";
-import featureUSSrc from "public/assets/feature-us.svg";
+import featureFBLASrc from "public/assets/feature-fbla.svg";
 import featurePrivacySrc from "public/assets/feature-privacy.svg";
-import featureOpenSourceSrc from "public/assets/feature-open-source.svg";
+import featureCustomizationSrc from "public/assets/feature-customization.svg";
 import { Link } from "components/documentation";
 
 const FEATURES = [
   {
     src: featureFreeSrc,
-    title: "Free Forever",
-    text: "OpenResume is created with the belief that everyone should have free and easy access to a modern professional resume design",
+    title: "Always Free",
+    text: "ResumeReady was built on the principle that everyone should have free access to professional resume templates and design tools.",
   },
   {
-    src: featureUSSrc,
-    title: "U.S. Best Practices",
-    text: "OpenResume has built-in best practices for the U.S. job market and works well with top ATS platforms such as Greenhouse and Lever",
+    src: featureFBLASrc,
+    title: "FBLA Ready",
+    text: "ResumeReady is optimized to help Future Business Leaders of America (FBLA) members build winning resumes for competitions and career development.",
   },
   {
     src: featurePrivacySrc,
-    title: "Privacy Focus",
-    text: "OpenResume stores data locally in your browser so only you have access to your data and with complete control",
+    title: "Privacy First",
+    text: "ResumeReady keeps all your data stored locally in your browser, ensuring only you have access and complete control over your information.",
   },
   {
-    src: featureOpenSourceSrc,
-    title: "Open-Source",
-    text: (
-      <>
-        OpenResume is an open-source project, and its source code can be viewed
-        by anyone on its{" "}
-        <Link href="https://github.com/xitanggg/open-resume">
-          GitHub repository
-        </Link>
-      </>
-    ),
+    src: featureCustomizationSrc,
+    title: "Fully Customizable",
+    text: "ResumeReady offers a wide range of customization options, allowing users to create resumes that align with their personal branding and job search needs.",
   },
 ];
 

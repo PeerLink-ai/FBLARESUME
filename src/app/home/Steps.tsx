@@ -1,13 +1,13 @@
 const STEPS = [
-  { title: "Add a resume pdf", text: "or create from scratch" },
-  { title: "Preview design", text: "and make edits" },
-  { title: "Download new resume", text: "and apply with confidence" },
+  { title: "Upload your resume PDF", text: "or start with a blank template" },
+  { title: "Review the layout", text: "and personalize your content" },
+  { title: "Save your resume", text: "and get ready to apply with confidence" },
 ];
 
 export const Steps = () => {
   return (
     <section className="mx-auto mt-8 rounded-2xl bg-sky-50 bg-dot px-8 pb-12 pt-10 lg:mt-2">
-      <h1 className="text-center text-3xl font-bold">3 Simple Steps</h1>
+      <h1 className="text-center text-3xl font-bold">3 Easy Steps</h1>
       <div className="mt-8 flex justify-center">
         <dl className="flex flex-col gap-y-10 lg:flex-row lg:justify-center lg:gap-x-20">
           {STEPS.map(({ title, text }, idx) => (
