@@ -1,8 +1,8 @@
 import Image from "next/image";
 import featureFreeSrc from "public/assets/feature-free.svg";
-import featureFBLASrc from "public/assets/feature-fbla.svg";
+import featureUSSrc from "public/assets/feature-us.svg";
 import featurePrivacySrc from "public/assets/feature-privacy.svg";
-import featureCustomizationSrc from "public/assets/feature-customization.svg";
+import featureOpenSourceSrc from "public/assets/feature-open-source.svg";
 import { Link } from "components/documentation";
 
 const FEATURES = [
@@ -12,7 +12,7 @@ const FEATURES = [
     text: "ResumeReady was built on the principle that everyone should have free access to professional resume templates and design tools.",
   },
   {
-    src: featureFBLASrc,
+    src: featureUSSrc,
     title: "FBLA Ready",
     text: "ResumeReady is optimized to help Future Business Leaders of America (FBLA) members build winning resumes for competitions and career development.",
   },
@@ -22,7 +22,7 @@ const FEATURES = [
     text: "ResumeReady keeps all your data stored locally in your browser, ensuring only you have access and complete control over your information.",
   },
   {
-    src: featureCustomizationSrc,
+    src: featureOpenSourceSrc,
     title: "Fully Customizable",
     text: "ResumeReady offers a wide range of customization options, allowing users to create resumes that align with their personal branding and job search needs.",
   },

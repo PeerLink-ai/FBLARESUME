@@ -3,9 +3,9 @@ import { TopNavBar } from "components/TopNavBar";
 import { Analytics } from "@vercel/analytics/react";
 
 export const metadata = {
-  title: "ResumeReady",
+  title: "ResumeReady - Free Resume Builder and Parser",
   description:
-    "Craft Your Future: Perfect Your Resume",
+    "ResumeReady is a free and powerful resume builder that allows anyone to create a modern professional resume in 3 simple steps. For those who have an existing resume, ResumeReady also provides a resume parser to help test and confirm its ATS readability.",
 };
 
 export default function RootLayout({

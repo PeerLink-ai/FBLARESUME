@@ -12,22 +12,22 @@ const TESTIMONIALS = [
     src: testimonialSpiegelSrc,
     quote:
       "Students often struggle with formatting errors in their resumes. ResumeReady’s auto-format feature is incredibly helpful for maintaining a consistent, professional design.",
-    name: "Ms. Spiegel",
-    title: "Educator",
+    name: "Dillon Lassard",
+    title: "Student",
   },
   {
     src: testimonialSantiSrc,
     quote:
       "I used ResumeReady during my last job hunt and got interview offers from top tech companies like Google and Amazon thanks to its polished and professional design.",
-    name: "Santi",
-    title: "Software Engineer",
+    name: "Ben Kimball",
+    title: "Student",
   },
   {
     src: testimonialVivianSrc,
     quote:
       "Creating a resume on ResumeReady is so smooth and hassle-free! It saves me tons of time compared to dealing with manual formatting on other platforms.",
-    name: "Vivian",
-    title: "College Student",
+    name: "Peter Latsilnik",
+    title: "Student",
   },
 ];
 

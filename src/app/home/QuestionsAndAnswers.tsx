@@ -2,105 +2,79 @@ import { Link } from "components/documentation";
 
 const QAS = [
   {
-    question:
-      "Q1. What is a resume builder? Why is a resume builder better than a resume template document?",
+    question: "Q1. How can I use ResumeReady to earn FBLA points?",
     answer: (
       <>
         <p>
-          There are two ways to create a resume today. One option is to use a
-          resume template, such as an office or Google doc, and customize it
-          according to your needs. The other option is to use a resume builder,
-          an online tool that allows you to input your information and
-          automatically generates a resume for you.
+          FBLA (Future Business Leaders of America) members can leverage
+          ResumeReady to earn points in various categories, such as leadership
+          development, career preparation, and community service. By using the
+          resume builder to create a professional resume, you can showcase
+          personal achievements, leadership roles, and projects you've worked
+          on in FBLA, which can contribute toward your FBLA recognition.
         </p>
         <p>
-          Using a resume template requires manual formatting work, like copying
-          and pasting text sections and adjusting spacing, which can be
-          time-consuming and prone to formatting errors. Resume builders, like
-          ResumeReady, save time and eliminate formatting mistakes by
-          automatically formatting the resume for you. It also provides the
-          convenience of easily changing font types or sizes with just a click.
-          Overall, a resume builder is easier and more efficient compared to a
-          resume template.
+          ResumeReady’s built-in FBLA-ready templates make it easier to format
+          resumes for competitive events, ensuring you present your work in the
+          best light to judges.
         </p>
       </>
     ),
   },
   {
-    question:
-      "Q2. What sets ResumeReady apart from other resume builders and templates?",
+    question: "Q2. How can ResumeReady help with FBLA competitive events?",
     answer: (
       <>
         <p>
-          While there are other great free resume builders out there, such as{" "}
-          <Link href="https://rxresu.me/">Reactive Resume</Link> and{" "}
-          <Link href="https://flowcv.com/">FlowCV</Link>, ResumeReady stands out
-          with two unique features:
+          ResumeReady is a valuable tool for FBLA members participating in
+          competitive events. Whether you're entering a competition that
+          requires a resume, or you need to prepare for job interviews during
+          career development events, the platform provides professionally
+          designed templates that adhere to best practices. FBLA members can
+          easily build, edit, and perfect their resumes for use in competitive
+          events like Job Interview and Electronic Career Portfolio.
         </p>
         <p>
-          <span className="font-semibold">
-            1. ResumeReady is tailored for FBLA members and career development.
-          </span>
-          <br />
-          Unlike other resume builders that offer global customization options,
-          ResumeReady is optimized for Future Business Leaders of America (FBLA)
-          members by focusing on career-specific best practices. It provides
-          clean, simple designs without unnecessary sections like references and
-          avoids elements like profile pictures, preventing biases in the job
-          market.
-        </p>
-        <p>
-          <span className="font-semibold">
-            2. ResumeReady emphasizes privacy.
-          </span>
-          <br />
-          Unlike other resume builders that may require you to sign up and store
-          data in the cloud, ResumeReady prioritizes your privacy by keeping all
-          data stored locally in your browser. No sign-up is needed, and your
-          data is accessible only by you.
+          You can also practice your resume writing skills by using the platform
+          and testing its ATS (Applicant Tracking System) readability, which is
+          critical for many modern job applications.
         </p>
       </>
     ),
   },
   {
-    question: "Q3. Who created ResumeReady and why?",
-    answer: (
-      <p>
-        ResumeReady was created by{" "}
-        <Link href="https://github.com/xitanggg">Xitang Zhao</Link> and designed
-        by <Link href="https://www.linkedin.com/in/imzhi">Zhigang Wen</Link> as
-        a personal project. As job seekers, we noticed how difficult it was to
-        create a resume that followed best practices. We wanted to make it
-        easier for others, especially first-generation students, to avoid the
-        mistakes we made when applying for jobs. ResumeReady integrates what
-        we've learned to help users quickly create professional resumes that
-        adhere to best practices.
-      </p>
-    ),
-  },
-  {
-    question: "Q4. How can I support ResumeReady?",
+    question: "Q3. What other features can I use on ResumeReady?",
     answer: (
       <>
         <p>
-          The best way to support ResumeReady is by sharing your feedback and
-          suggestions with us. You can email us at{" "}
-          <Link href="mailto:hello@resumeready.com">hello@resumeready.com</Link>{" "}
-          or{" "}
-          <Link href="https://github.com/xitanggg/resume-ready/issues/new">
-            open an issue
-          </Link>{" "}
-          on our GitHub repository. Whether you have positive or constructive
-          feedback, we’d love to hear from you.
+          ResumeReady isn’t just about building resumes. It also offers a
+          powerful resume parser that allows you to check the formatting and ATS
+          compliance of your existing resume. This ensures that your resume is
+          readable by automated systems, which is essential for applying to
+          competitive jobs.
         </p>
         <p>
-          Another way to support ResumeReady is by spreading the word. Share it
-          with friends, on social media, or with your school’s career center. If
-          you use GitHub, you can also show your support by{" "}
-          <Link href="https://github.com/xitanggg/resume-ready">
-            starring the project
-          </Link>{" "}
-          to help boost its visibility.
+          ResumeReady provides customization options for personal branding,
+          helping you create a resume that reflects your skills and personality.
+          You can also store multiple versions of your resume for different job
+          applications, tailoring each one for specific roles.
+        </p>
+      </>
+    ),
+  },
+  {
+    question: "Q4. How does ResumeReady ensure my privacy?",
+    answer: (
+      <>
+        <p>
+          ResumeReady prioritizes your privacy by storing your data locally in
+          your browser. This means that all of your information remains
+          accessible only to you, and you never have to worry about sharing your
+          personal data or signing up for an account.
+        </p>
+        <p>
+          This focus on privacy allows you to build and customize your resume
+          with peace of mind, knowing that your information stays secure.
         </p>
       </>
     ),

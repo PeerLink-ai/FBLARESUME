@@ -9,13 +9,13 @@ import { deepClone } from "lib/deep-clone";
 
 export const END_HOME_RESUME: Resume = {
   profile: {
-    name: "Jane Smith",
+    name: "Dillon Lassard",
     summary:
       "Full-stack developer with a passion for creating user-friendly, high-performance web applications",
-    email: "contact@janesmith.com",
-    phone: "987-654-3210",
-    location: "San Francisco, CA",
-    url: "linkedin.com/in/jane-smith",
+    email: "contact@dillonlassard.com",
+    phone: "603-303-0938",
+    location: "Raymond, NH",
+    url: "linkedin.com/in/dillon-lassard",
   },
   workExperiences: [
     {
@@ -50,7 +50,7 @@ export const END_HOME_RESUME: Resume = {
   ],
   educations: [
     {
-      school: "Tech University",
+      school: "Concord High School",
       degree: "Bachelor of Science in Software Engineering",
       date: "Sep 2018 - May 2022",
       gpa: "3.9",

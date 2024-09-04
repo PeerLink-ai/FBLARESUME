@@ -18,7 +18,6 @@ export const Hero = () => {
         <Link href="/resume-import" className="btn-primary mt-6 lg:mt-14">
           Get Started <span aria-hidden="true">→</span>
         </Link>
-        <p className="ml-6 mt-3 text-sm text-gray-600">No registration needed</p>
         <p className="mt-3 text-sm text-gray-600 lg:mt-36">
           Already have a resume? Analyze its performance with the{" "}
           <Link href="/resume-parser" className="underline underline-offset-2">
