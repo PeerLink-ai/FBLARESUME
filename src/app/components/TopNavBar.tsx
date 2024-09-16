@@ -2,7 +2,7 @@
 import { usePathname } from "next/navigation";
 import Link from "next/link";
 import Image from "next/image";
-import logoSrc from "public/logo.svg";
+import logoSrc from "public/logo.png";
 import { cx } from "lib/cx";
 
 export const TopNavBar = () => {
@@ -18,15 +18,12 @@ export const TopNavBar = () => {
       )}
     >
       <div className="flex h-10 w-full items-center justify-between">
-        <Link href="/">
-          <span className="sr-only">ResumeReady</span>
-          <Image
-            src={logoSrc}
-            alt="Resume Ready Logo"
-            className="h-8 w-full"
-            priority
-          />
-        </Link>
+  <Link href="/">
+    <span className="sr-only">ResumeReady</span>
+    <h1 className="text-2xl font-bold bg-gradient-to-r from-blue-400 to-blue-600 bg-clip-text text-transparent">
+      ResumeReady
+    </h1>
+  </Link>
         <nav
           aria-label="Site Nav Bar"
           className="flex items-center gap-2 text-sm font-medium"
