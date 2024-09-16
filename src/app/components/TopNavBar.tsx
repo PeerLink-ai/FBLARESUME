@@ -22,7 +22,7 @@ export const TopNavBar = () => {
           <span className="sr-only">ResumeReady</span>
           <Image
             src={logoSrc}
-            alt="OpenResume Logo"
+            alt="Resume Ready Logo"
             className="h-8 w-full"
             priority
           />
