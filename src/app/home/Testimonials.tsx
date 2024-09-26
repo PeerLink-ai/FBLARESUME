@@ -1,29 +1,29 @@
 "use client";
 import heartSrc from "public/assets/heart.svg";
-import testimonialSpiegelSrc from "public/assets/testimonial-spiegel.jpg";
-import testimonialSantiSrc from "public/assets/testimonial-santi.jpg";
-import testimonialVivianSrc from "public/assets/testimonial-vivian.jpg";
+import testimonialDLSrc from "public/assets/DL.jpg";
+import testimonialBKSrc from "public/assets/BK.jpg";
+import testimonialPLSrc from "public/assets/PL.jpg";
 import React, { useEffect, useRef, useState } from "react";
 import Image from "next/image";
 import { useTailwindBreakpoints } from "lib/hooks/useTailwindBreakpoints";
 
 const TESTIMONIALS = [
   {
-    src: testimonialSpiegelSrc,
+    src: testimonialDLSrc,
     quote:
       "Students often struggle with formatting errors in their resumes. ResumeReady’s auto-format feature is incredibly helpful for maintaining a consistent, professional design.",
     name: "Dillon Lassard",
     title: "Student",
   },
   {
-    src: testimonialSantiSrc,
+    src: testimonialBKSrc,
     quote:
       "I used ResumeReady during my last job hunt and got interview offers from top tech companies like Google and Amazon thanks to its polished and professional design.",
     name: "Ben Kimball",
     title: "Student",
   },
   {
-    src: testimonialVivianSrc,
+    src: testimonialPLSrc,
     quote:
       "Creating a resume on ResumeReady is so smooth and hassle-free! It saves me tons of time compared to dealing with manual formatting on other platforms.",
     name: "Peter Latsilnik",
