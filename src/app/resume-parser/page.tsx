@@ -51,6 +51,14 @@ export default function ResumeParser() {
     test();
   }, [fileUrl]);
 
+  <head>
+<script
+  async
+  src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9909888228762886"
+  crossOrigin="anonymous"
+/>
+</head>
+
   return (
     <main className="h-full w-full overflow-hidden">
       <div className="grid md:grid-cols-6">
@@ -130,10 +138,4 @@ export default function ResumeParser() {
     </main>
   );
 }
-<head>
-<script
-  async
-  src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9909888228762886"
-  crossOrigin="anonymous"
-/>
-</head>
+
