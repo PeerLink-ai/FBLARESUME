@@ -3,6 +3,7 @@ import { usePathname } from "next/navigation";
 import Link from "next/link";
 import Image from "next/image";
 import logoSrc from "public/logo.png";
+import instagramLogo from "public/assets/instagram-logo.png"; // Import Instagram logo
 import { cx } from "lib/cx";
 
 export const TopNavBar = () => {
@@ -18,12 +19,12 @@ export const TopNavBar = () => {
       )}
     >
       <div className="flex h-10 w-full items-center justify-between">
-  <Link href="/">
-    <span className="sr-only">ResumeReady</span>
-    <h1 className="text-2xl font-bold bg-gradient-to-r from-blue-400 to-blue-600 bg-clip-text text-transparent">
-      ResumeReady
-    </h1>
-  </Link>
+        <Link href="/">
+          <span className="sr-only">ResumeReady</span>
+          <h1 className="text-2xl font-bold bg-gradient-to-r from-blue-400 to-blue-600 bg-clip-text text-transparent">
+            ResumeReady
+          </h1>
+        </Link>
         <nav
           aria-label="Site Nav Bar"
           className="flex items-center gap-2 text-sm font-medium"
@@ -41,6 +42,19 @@ export const TopNavBar = () => {
             </Link>
           ))}
           <div>
+            {/* Add Instagram button */}
+            <Link href="https://www.instagram.com/fblaresume" target="_blank" rel="noopener noreferrer">
+              <button className="flex items-center gap-2 rounded-md px-3 py-2 text-gray-500 hover:bg-gray-100 focus-visible:bg-gray-100">
+                <Image
+                  src={instagramLogo}
+                  alt="Instagram Logo"
+                  width={40}
+                  height={40}
+                  className="h-5 w-5"
+                />
+                <span>Add us on Instagram</span>
+              </button>
+            </Link>
           </div>
         </nav>
       </div>
