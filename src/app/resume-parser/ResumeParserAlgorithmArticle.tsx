@@ -264,7 +264,7 @@ export const ResumeParserAlgorithmArticle = ({
         And that's a wrap on the ResumeReady parser algorithm :)
       </Paragraph>
       <Paragraph>
-        Written by <Link href="https://github.com/xitanggg">Xitang</Link> in June 2023
+        Written by <Link href="https://instagram.com/drew.mcmorrow/">Andrew McMorrow</Link> in August 2024
       </Paragraph>
     </article>
   );

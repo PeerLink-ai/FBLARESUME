@@ -4,6 +4,12 @@ import { store } from "lib/redux/store";
 import { ResumeForm } from "components/ResumeForm";
 import { Resume } from "components/Resume";
 
+<script
+  async
+  src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9909888228762886"
+  crossOrigin="anonymous"
+/>
+
 export default function Create() {
   return (
     <Provider store={store}>
