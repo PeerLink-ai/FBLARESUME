@@ -18,14 +18,14 @@ const TESTIMONIALS = [
   {
     src: testimonialBKSrc,
     quote:
-      "I used ResumeReady during my last job hunt and got interview offers from top tech companies like Google and Amazon thanks to its polished and professional design.",
+      "I feel much more confident applying to colleges thanks to ResumeReady! I'm happy my friend was able to develop something for kids like me.",
     name: "Ben Kimball",
     title: "Student",
   },
   {
     src: testimonialPLSrc,
     quote:
-      "Creating a resume on ResumeReady is so smooth and hassle-free! It saves me tons of time compared to dealing with manual formatting on other platforms.",
+      "Creating a resume on ResumeReady is so smooth! It saves me tons of time compared to dealing with manual formatting on other platforms.",
     name: "Peter Latsilnik",
     title: "Student",
   },
