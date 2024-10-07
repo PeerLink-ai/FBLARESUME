@@ -30,6 +30,7 @@ export const TopNavBar = () => {
           className="flex items-center gap-2 text-sm font-medium"
         >
           {[
+            ["/about", "About"], // Corrected the path for About page
             ["/resume-builder", "Builder"],
             ["/resume-parser", "Analyzer"],
           ].map(([href, text]) => (
@@ -52,7 +53,7 @@ export const TopNavBar = () => {
                   height={40}
                   className="h-5 w-5"
                 />
-                <span>Add us on Instagram</span>
+                <span>Add us on Instagram!</span>
               </button>
             </Link>
           </div>
