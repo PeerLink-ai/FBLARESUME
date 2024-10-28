@@ -1,0 +1,151 @@
+/* src/app/home/ScrollingBar.css */
+
+/* Root Variables for Easy Customization */
+:root {
+    --scrolling-bar-bg-start: #ffffff; /* Starting background color */
+    --scrolling-bar-bg-end: #f0f0f0;   /* Ending background color */
+    --scrolling-bar-title-color: #333333; /* Title text color */
+    --scrolling-bar-border-radius: 12px; /* Border radius for containers */
+    --scrolling-bar-shadow: rgba(0, 0, 0, 0.1); /* Box shadow color */
+    --scrolling-bar-hover-scale: 1.05; /* Scale on hover */
+    --scrolling-bar-transition-duration: 0.3s; /* Transition duration */
+  }
+  
+  /* Container Styles */
+  .scrolling-bar-container {
+    text-align: center;
+    margin: 60px 0;
+    padding: 0 20px; /* Padding for smaller screens */
+  }
+  
+  /* Title Styles */
+  .scrolling-bar-title {
+    font-size: 2rem;
+    color: var(--scrolling-bar-title-color);
+    margin-bottom: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+  }
+  
+  /* Scrolling Bar Styles */
+  .scrolling-bar {
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(135deg, var(--scrolling-bar-bg-start), var(--scrolling-bar-bg-end));
+    padding: 25px 0;
+    border-radius: var(--scrolling-bar-border-radius);
+    box-shadow: 0 4px 20px var(--scrolling-bar-shadow);
+  }
+  
+  /* Scrolling Content Styles */
+  .scrolling-content {
+    display: flex;
+    align-items: center;
+    animation: scroll 20s linear infinite;
+  }
+  
+  /* Individual School Item Styles */
+  .school-item {
+    flex: 0 0 auto;
+    margin: 0 30px;
+    transition: transform var(--scrolling-bar-transition-duration), box-shadow var(--scrolling-bar-transition-duration);
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  /* School Logo Styles */
+  .school-logo {
+    max-height: 80px;
+    width: auto;
+    filter: drop-shadow(0 4px 6px rgba(0, 0, 0, 0.1));
+    transition: transform var(--scrolling-bar-transition-duration), box-shadow var(--scrolling-bar-transition-duration);
+  }
+  
+  /* Hover Effects */
+  .school-item:hover .school-logo {
+    transform: scale(var(--scrolling-bar-hover-scale));
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Animation Keyframes */
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+  
+  /* Edge Fade Effect */
+  .scrolling-bar::before,
+  .scrolling-bar::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 80px;
+    height: 100%;
+    z-index: 2;
+    pointer-events: none;
+  }
+  
+  .scrolling-bar::before {
+    left: 0;
+    background: linear-gradient(to right, var(--scrolling-bar-bg-start), rgba(255, 255, 255, 0));
+  }
+  
+  .scrolling-bar::after {
+    right: 0;
+    background: linear-gradient(to left, var(--scrolling-bar-bg-end), rgba(240, 240, 240, 0));
+  }
+  
+  /* Pause Animation on Hover */
+  .scrolling-bar:hover .scrolling-content {
+    animation-play-state: paused;
+  }
+  
+  /* Responsive Design Adjustments */
+  @media (max-width: 1024px) {
+    .scrolling-bar-title {
+      font-size: 1.75rem;
+    }
+  
+    .school-logo {
+      max-height: 70px;
+    }
+  
+    .school-item {
+      margin: 0 20px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .scrolling-bar-title {
+      font-size: 1.5rem;
+    }
+  
+    .school-logo {
+      max-height: 60px;
+    }
+  
+    .school-item {
+      margin: 0 15px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .scrolling-bar-title {
+      font-size: 1.25rem;
+      margin-bottom: 20px;
+    }
+  
+    .school-logo {
+      max-height: 50px;
+    }
+  
+    .school-item {
+      margin: 0 10px;
+    }
+  }
+  

@@ -6,6 +6,7 @@ import { Features } from "home/Features";
 import { Testimonials } from "home/Testimonials";
 import { QuestionsAndAnswers } from "home/QuestionsAndAnswers";
 import { Footer } from "home/Footer";
+import { Schools } from 'home/schoolscroller';
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       <main className="mx-auto max-w-screen-2xl bg-dot px-8 pb-32 text-gray-900 lg:px-12">
         <Hero />
         <Steps />
+        <Schools />
         <Features />
         <Testimonials />
         <QuestionsAndAnswers />

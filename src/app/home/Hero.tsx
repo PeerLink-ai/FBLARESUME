@@ -13,7 +13,7 @@ export const Hero = () => {
           resume effortlessly
         </h1>
         <p className="mt-3 text-lg lg:mt-5 lg:text-xl">
-          With this free, FBLA-friendly, and feature-packed resume builder
+        With this free, user-friendly, and feature-packed resume builder
         </p>
         <Link href="/resume-import" className="btn-primary mt-6 lg:mt-14">
           Get Started <span aria-hidden="true">→</span>
